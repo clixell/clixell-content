@@ -24,4 +24,4 @@ Do the same for the other three templates, then upload these to the snippets dir
 Go to: 
 https://mystore.myshopify.com/apps/cxl-content/featured
 
-You will be met by a blank page with "Hello, World." on it. You have now configured your listing page.
+You will be met by a simple page saying "Hello, World." on it. You have now configured your listing page.
