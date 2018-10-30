@@ -13,13 +13,13 @@ The Name should be set to the name of the content type you are creating, eg. "Fe
 
 The Handle is what will be used to grab the content type in the browser and will create a link between the app and the liquid files.
 
-4. Scroll down to the Text Editor box and type "Hello, world"
-
-5. Once you have given your content type a handle, you should replicate and rename the downloaded liquid files to mirror this, replacing the "default" in the name with your handle. So, if your handle is "featured", the file name for the listing page would be:
+4. Once you have given your content type a handle, you should replicate and rename the downloaded liquid files to mirror this, replacing the "default" in the name with your handle. So, if your handle is "featured", the file name for the listing page would be:
 
 cxl-content-default-listing.liquid --> cxl-content-featured-listing.liquid
 
 Do the same for the other three templates, then upload these to the snippets directory of your project.
+
+5. Scroll down to the Text Editor box and type "Hello, world"
 
 Go to: 
 https://mystore.myshopify.com/apps/cxl-content/featured
