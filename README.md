@@ -2,12 +2,10 @@
 
 Clixell Content is a shopify app that does foo bar moo..
 
-# Steps to configure a new content type
+# Getting Started
 
 1. Download the default liquid files
 2. Open the app in admin and click "config"
-
-# Getting Started
 
 The Name should be set to the name of the content type you are creating, eg. "Featured Products"
 
