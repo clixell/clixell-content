@@ -25,3 +25,5 @@ Go to:
 https://mystore.myshopify.com/apps/cxl-content/featured
 
 You will be met by a simple page saying "Hello, World." on it. You have now configured your listing page.
+
+# Creating your listings page
