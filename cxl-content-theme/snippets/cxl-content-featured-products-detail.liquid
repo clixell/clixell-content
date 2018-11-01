@@ -1,0 +1,48 @@
+{% assign custom_meta_title = content_meta_title %}
+{% assign custom_meta_description = content_meta_description %}
+
+
+<img src='{{ content_image_thumbnail }}?crop=1920x300' class="img-fluid" />
+
+<div class='container pt-3'>
+
+	<h1>{{ content_title }}</h1>
+
+	<h4>Posted: {{ content_date | date: "%a, %b %d, %y" }}</h4>
+
+	{% assign tags = content_tags | split: "<cxl>" %}
+
+	<h6>Tagged in &nbsp;
+	{% for tag in tags %}
+		<a href="{{ app_url }}/tag/{{ tag }}" class="badge badge-pill badge-secondary">{{ tag }}</a>
+	{% endfor %}
+	</h6>
+
+	<div class='pt-3'>
+		{{ content_text_primary }}
+	</div>
+
+	<h4 class="mt-4">Gallery</h4>
+
+	{% assign images = content_image_gallery | split: "<cxl>" %}
+	{% assign images_alt = content_image_gallery_alt | split: "<cxl>" %}
+	{% assign images_width = content_image_gallery_width | split: "<cxl>" %}
+	{% assign images_height = content_image_gallery_height | split: "<cxl>" %}
+
+	<div class='row'>
+		{% for image in images %}
+			<div class='col-sm-2 mb-4'>
+				<a href="{{ image }}" target="_blank">
+					<img src="{{ image }}?crop=240x160" alt="{{ images_alt[forloop.index0] }}" title="{{ images_alt[forloop.index0] }}" class="img-fluid" />
+				</a>
+				<code>size: {{ images_width[forloop.index0] }}x{{ images_height[forloop.index0] }}</code>
+			</div>
+		{% endfor %}
+	</div>
+
+
+	<div class='text-center mt-4'>
+		<a class='btn btn-primary' href="{{ app_url }}">Back to Featured Products</a>
+	</div>
+
+</div>

@@ -1,4 +1,4 @@
-# clixell-content
+# CXL Content
 
 Clixell Content is a shopify app that does foo bar moo..
 
@@ -21,7 +21,7 @@ Do the same for the other three templates, then upload these to the snippets dir
 
 5. Scroll down to the Text Editor box and type "Hello, world"
 
-Go to: 
+Go to:
 https://mystore.myshopify.com/apps/cxl-content/featured
 
 You will be met by a simple page saying "Hello, World." on it. You have now configured your listing page.

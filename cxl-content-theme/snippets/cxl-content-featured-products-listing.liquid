@@ -1,0 +1,49 @@
+{% assign custom_meta_title = app_meta_title %}
+{% assign custom_meta_description = app_meta_description %}
+
+<img src="{{ app_jumbotron }}?crop=1920x200" class="img-fluid" />
+
+<div class='container pt-3'>
+
+	{{ app_content }}
+
+	<div class="row pt-2">
+
+		{% assign articles = content_listing | split: "<cxl>" %}
+
+		{% for article in articles %}
+
+			<div class="col-sm-4">
+
+					{{ article }}
+
+			</div>
+
+		{% endfor %}
+
+	</div>
+
+	<div class="row pt-2">
+
+		<div class="col-sm-6">
+
+			{% if pagination_back != blank %}
+
+					<a class='btn btn-secondary' href="{{ pagination_back }}">BACK</a>
+
+			{% endif %}
+
+		</div>
+		<div class="col-sm-6 text-right">
+
+			{% if pagination_next != blank %}
+
+					<a class='btn btn-secondary' href="{{ pagination_next }}">NEXT</a>
+
+			{% endif %}
+
+		</div>
+
+	</div>
+
+</div>

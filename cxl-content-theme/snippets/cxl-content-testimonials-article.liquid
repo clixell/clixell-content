@@ -1,0 +1,11 @@
+{% if app_view == 'listing' %}
+  <blockquote class="blockquote border-top pt-5 mt-5">
+{% else %}
+  <blockquote class="blockquote">
+{% endif %}
+
+  {{ item_text_quote }}
+  
+  <footer class="blockquote-footer">{{ item_title }}</footer>
+
+</blockquote>

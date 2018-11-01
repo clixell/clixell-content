@@ -1,0 +1,51 @@
+{% if app_view == 'listing' %}
+
+  <article class="card mb-5">
+
+    <a href="{{ item_url}}"><img class="card-img-top" src="{{ item_image_thumbnail }}?crop=390x260" alt="Card image cap"></a>
+
+    <div class="card-body">
+
+      <h5 class="card-title">{{ item_title }}</h5>
+
+      <div class="card-text">{{ item_text_excerpt }}</div>
+
+      <a href="{{ item_url}}" class="btn btn-primary">View</a>
+
+    </div>
+
+  </article>
+
+{% elsif app_view == 'homepage' %}
+
+  <article class="card mb-5">
+
+    <div class="card-body">
+
+      <div class="row">
+
+        <div class="col-sm-4">
+
+          <a href="{{ item_url}}">
+            <img class="rounded-circle img-fluid" src="{{ item_image_thumbnail }}?crop=300x300" alt="Card image cap">
+          </a>
+
+        </div>
+
+        <div class="col-sm-8">
+
+          <h5 class="card-title">{{ item_title }}</h5>
+
+          <div class="card-text">{{ item_text_excerpt }}</div>
+
+          <a href="{{ item_url}}" class="btn btn-primary">View</a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </article>
+
+{% endif %}

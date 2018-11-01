@@ -1,0 +1,9 @@
+{% layout none %}
+
+{% assign articles = content_listing | split: "<cxl>" %}
+
+{% for article in articles %}
+
+	{{ article }}
+
+{% endfor %}

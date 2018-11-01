@@ -1,0 +1,16 @@
+{% assign custom_meta_title = app_meta_title %}
+{% assign custom_meta_description = app_meta_description %}
+
+<div class='container pt-3'>
+
+	{{ app_content }}
+
+	{% assign articles = content_listing | split: "<cxl>" %}
+
+	{% for article in articles %}
+
+		{{ article }}
+
+	{% endfor %}
+
+</div>

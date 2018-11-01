@@ -1,0 +1,33 @@
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4">Clixell Content</h1>
+    <p class="lead">Structured content within your Shopify store. Use the navigation above to see the main listing pages for the demo content types.
+    Also, as well as having there own listing page, content from the app can be loaded in to any page within shopify (below).</p>
+  </div>
+</div>
+
+<div class="container">
+
+  <h2>Latest Featured Products</h2>
+  <p>The 2 latest featured products are loaded in dynamically using a different layout to the main listing page.</p>
+
+  <div cxl-content-featured-products></div>
+
+  <hr/>
+
+  <h2 class="mt-5">Random Testimonial</h2>
+  <p> The random testimonial is selected from all testimonials tagged as "Show On Homepage".</p>
+
+  <div cxl-content-testimonials></div>
+
+  <script>
+  $(function() {
+
+    $("[cxl-content-featured-products]").load("/apps/cxl-content/featured-products?view=homepage&items=2");
+
+    $("[cxl-content-testimonials]").load("/apps/cxl-content/testimonials/tag/Show+On+Homepage?view=homepage&items=1&random=true");
+
+  });
+  </script>
+
+</div>

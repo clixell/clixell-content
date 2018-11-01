@@ -1,0 +1,32 @@
+{% assign custom_meta_title = app_meta_title %}
+{% assign custom_meta_description = app_meta_description %}
+
+<div class='container pt-3'>
+
+	{{ app_content }}
+
+	{% assign filters = content_filters | split: "<cxl>" %}
+
+	<ul class="nav nav-pills">
+
+		{% for filter in filters %}
+			<li class="nav-item">
+				{{ filter | replace: 'class="', 'class="nav-link ' }}
+			</li>
+		{% endfor %}
+
+	</ul>
+
+	<div class="accordion" id="accordionExample">
+
+		{% assign articles = content_listing | split: "<cxl>" %}
+
+		{% for article in articles %}
+
+			{{ article }}
+
+		{% endfor %}
+
+	</div>
+
+</div>

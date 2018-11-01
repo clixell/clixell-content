@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <link rel="shortcut icon" href="https://cxl-cdn.ws.applieddigital.co.uk/cxl/icons/icon-content.png" type="image/png">
+
+  <title>{% if custom_meta_title %}{{ custom_meta_title }}{% else %}{{ page_title }}{% endif %}{% if current_tags %}{% assign meta_tags = current_tags | join: ', ' %} &ndash; {{ 'general.meta.tags' | t: tags: meta_tags }}{% endif %}{% if current_page != 1 %} &ndash; {{ 'general.meta.page' | t: page: current_page }}{% endif %}{% unless page_title contains shop.name %} &ndash; {{ shop.name }}{% endunless %}</title>
+  <meta name="description" content="{% if custom_meta_description %}{{ custom_meta_description | escape }}{% else %}{{ page_description | escape }}{% endif %}">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+  {{ 'cxl-content.scss.css' | asset_url | stylesheet_tag }}
+
+  {{content_for_header}}
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-light bg-light">
+
+    <span class="navbar-brand">
+      <img src="https://cxl-cdn.ws.applieddigital.co.uk/cxl/icons/icon-content.png" width="30" height="30" class="d-inline-block align-top" alt="">
+      Clixell Content
+    </span>
+
+    <ul class="nav">
+
+      <li class="nav-item">
+        <a class="nav-link" href="/">HOME</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/apps/cxl-content/featured-products">FEATURED PRODUCTS</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/apps/cxl-content/testimonials">TESTIMONIALS</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/apps/cxl-content/faqs">FAQs</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/apps/cxl-content/support">SUPPORT</a>
+      </li>
+      <li class="nav-item bg-primary">
+        <a class="nav-link text-white" href="/apps/cxl-content/support">INSTALL</a>
+      </li>
+
+    </ul>
+
+  </nav>
+
+  <div class="page-container">
+
+    <main>
+      {{ content_for_layout }}
+    </main>
+
+    <footer class="mt-5 p-3 border-top">
+
+      <span class="">&copy; Clixell Content</span>
+
+    </footer>
+
+  </div>
+
+</body>
+</html>
