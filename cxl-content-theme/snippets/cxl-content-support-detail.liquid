@@ -1,0 +1,38 @@
+{% assign custom_meta_title = content_meta_title %}
+{% assign custom_meta_description = content_meta_description %}
+
+
+<div class='container pt-3'>
+
+	<div class="col-md-9">
+
+		<h1>{{ content_title }}</h1>
+
+		<div class='pt-3'>
+			{{ content_text_body }}
+		</div>
+
+		{% assign downloads = content_downloads_urls | split: "<cxl>" %}
+		{% assign downloads_titles = content_downloads_titles | split: "<cxl>" %}
+
+		{% if downloads[0] != blank %}
+
+			<div class='pt-3'>
+
+				<ul>
+				{% for download in downloads %}
+					<li><a href="{{ download }}">{{ downloads_titles[forloop.index0] }}</a></li>
+				{% endfor %}
+				</ul>
+
+			</div>
+
+		{% endif %}
+
+		<div class='mt-4'>
+			<a class='btn btn-primary' href="{{ app_url }}">Back to Support</a>
+		</div>
+
+	</div>
+
+</div>

@@ -7,7 +7,11 @@
 
   <link rel="shortcut icon" href="https://cxl-cdn.ws.applieddigital.co.uk/cxl/icons/icon-content.png" type="image/png">
 
-  <title>{% if custom_meta_title %}{{ custom_meta_title }}{% else %}{{ page_title }}{% endif %}{% if current_tags %}{% assign meta_tags = current_tags | join: ', ' %} &ndash; {{ 'general.meta.tags' | t: tags: meta_tags }}{% endif %}{% if current_page != 1 %} &ndash; {{ 'general.meta.page' | t: page: current_page }}{% endif %}{% unless page_title contains shop.name %} &ndash; {{ shop.name }}{% endunless %}</title>
+  <title>
+    {% if custom_meta_title %}{{ custom_meta_title }}{% else %}{{ page_title }}{% endif %}
+    {% if current_tags %}{% assign meta_tags = current_tags | join: ', ' %} &ndash; {{ 'general.meta.tags' | t: tags: meta_tags }}{% endif %}
+    {% if current_page != 1 %} &ndash; {{ 'general.meta.page' | t: page: current_page }}{% endif %}
+  </title>
   <meta name="description" content="{% if custom_meta_description %}{{ custom_meta_description | escape }}{% else %}{{ page_description | escape }}{% endif %}">
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -27,7 +31,7 @@
   <nav class="navbar navbar-light bg-light">
 
     <span class="navbar-brand">
-      <img src="https://cxl-cdn.ws.applieddigital.co.uk/cxl/icons/icon-content.png" width="30" height="30" class="d-inline-block align-top" alt="">
+      <a href="/"><img src="https://cxl-cdn.ws.applieddigital.co.uk/cxl/icons/icon-content.png" width="30" height="30" class="d-inline-block align-top" alt=""></a>
       Clixell Content
     </span>
 

@@ -7,12 +7,14 @@
 
 	{% assign filters = content_filters | split: "<cxl>" %}
 
-	<ul class="nav nav-pills">
+	<ul class="nav nav-pills mb-4">
+
+		<li class="nav-item"><span class="nav-link"><b>Filter</b></span></li>
 
 		{% for filter in filters %}
-			<li class="nav-item">
-				{{ filter | replace: 'class="', 'class="nav-link ' }}
-			</li>
+
+			<li class="nav-item">{{ filter }}</li>
+
 		{% endfor %}
 
 	</ul>
