@@ -1,29 +1,33 @@
 # CXL Content
 
-Clixell Content is a shopify app that does foo bar moo..
+Clixell Content is a shopify app that makes creating content pages on your store super easy.
 
-# Getting Started
+# What can Clixell Content do?
 
-1. Download the default liquid files from this repository
-2. Open the app in admin and click "config"
+Have a content page you would like to add to your store? For example an FAQs page or a featured products page. Clixell Content will allow you to add:
 
-You will see content A through to content D. We will be using "content a".
+# Custom text
 
-The Name should be set to the name of the content type you are creating, eg. "Featured Products"
+You can add whatever header, subheader, description and anything else you need to your page using the textboxes and TinyMCE textareas. Simply give the text type a name and call it in your view. You can format the text to be any style, colour and have any page align you like.
 
-The Handle is what will be used to grab the content type in the browser and will create a link between the app and the liquid files.
+# Images 
 
-4. Once you have given your content type a handle, you should replicate and rename the downloaded liquid files to mirror this, replacing the "default" in the name with your handle. So, if your handle is "featured", the file name for the listing page would be:
+You can upload images in the admin section and call them on the frontend. If you are creating a listing page for the content type, you can add a thumbnail to each article within the content type and it will show within the listing page.
 
-cxl-content-default-listing.liquid --> cxl-content-featured-listing.liquid
+# Gallery of images
 
-Do the same for the other three templates, then upload these to the snippets directory of your project.
+You can upload multiple images that will be grouped together and displayed as a gallery in the frontend.
 
-5. Scroll down to the Text Editor box and type "Hello, world"
+# Tags
 
-Go to:
-https://mystore.myshopify.com/apps/cxl-content/featured
+You can add tags to your content page which will be clickable and link to other articles within the content type that share the same tag. 
 
-You will be met by a simple page saying "Hello, World." on it. You have now configured your listing page.
+# Downloads
 
-# Creating your listings page
+You can add downloadable content to your page. If you would like your customers to be able to download PDFs, Text Documents, images and more, then you simple upload the document to the backend and call it in the frontend. You will be able to give the download whatever name you like and have it appear however you wish in the frontend.
+
+# Links
+
+Create links to redirect the user to other pages on the site or to other places of interest
+
+
