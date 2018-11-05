@@ -41,7 +41,8 @@
 
   Print the gallery with the following:
 
-  `{% assign images = content_image_gallery | split: "<cxl>" %}
+  ```
+  {% assign images = content_image_gallery | split: "<cxl>" %}
 	{% assign images_alt = content_image_gallery_alt | split: "<cxl>" %}
 	{% assign images_width = content_image_gallery_width | split: "<cxl>" %}
 	{% assign images_height = content_image_gallery_height | split: "<cxl>" %}
@@ -55,9 +56,8 @@
 				<code>size: {{ images_width[forloop.index0] }}x{{ images_height[forloop.index0] }}</code>
 			</div>
 		{% endfor %}
-	</div>`
-
-  ![alt text](https://github.com/clixell/clixell-content/blob/master/help-docs/images/how-to-gallery-4.png)
+	</div>
+  ```
 
   Complete. Your gallery will now appear.
 
