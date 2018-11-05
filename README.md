@@ -34,7 +34,7 @@ Create links to redirect the user to other pages on the site or to other places 
 
 Add a Meta title and description to your content pages
 
-### Bring in data through ajax
+### Data through ajax
 
 You can bring your data in using an ajax request so that you don't have to call the app directly through the url.
 
