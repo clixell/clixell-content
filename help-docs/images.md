@@ -77,6 +77,10 @@
 
   `<img src='{{ content_image_jumbotron }}?crop=1920x300' class="img-fluid" />`
 
+  Or
+
+  `<img src='{{ content_image_jumbotron }}?fit=1920x300' class="img-fluid" />`
+
   ## Image GET variables
 
   You may have noticed the variable "crop" in the image src. There are two options you can pass in when pulling out an image, "crop" and "fit".
