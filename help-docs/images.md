@@ -7,7 +7,7 @@
 
   ## Thumbnails
 
-  ![alt text](https://github.com/clixell/clixell-content/help-docs/images/thumbnail-example.png "Example of a thumbnail")
+  ![alt text](https://github.com/clixell/clixell-content/blob/master/help-docs/images/thumbnail-example.png "Example of a thumbnail")
 
     <!-- <img class='image-example' src='images/thumbnail-example.png'>
 
