@@ -2,6 +2,13 @@
 
 You can add as much custom text as you like to any content page
 
+## Installing TincyMCE
+
+Before looking at these instructions you should first install TinyMCE.
+
+You can find the install instructions [here link](https://apps.tiny.cloud/signup/):
+
+
 ## Text attributes
 
 You can use text attributes to display short snippets of text/numeric values on your content pages
