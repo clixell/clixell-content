@@ -19,7 +19,7 @@
 
   Call the thumbnail with the following:
 
-  ![alt text](https://github.com/clixell/clixell-content/blob/master/help-docs/images/how-to-thumbnail-3.png)
+  `<img src={{ item_image_thumbnail }}></img>`
 
   Complete.</strong> Your thumbnail will now appear.
 
@@ -41,13 +41,29 @@
 
   Print the gallery with the following:
 
+  `{% assign images = content_image_gallery | split: "<cxl>" %}
+	{% assign images_alt = content_image_gallery_alt | split: "<cxl>" %}
+	{% assign images_width = content_image_gallery_width | split: "<cxl>" %}
+	{% assign images_height = content_image_gallery_height | split: "<cxl>" %}
+
+	<div class='row'>
+		{% for image in images %}
+			<div class='col-sm-2 mb-4'>
+				<a href="{{ image }}" target="_blank">
+					<img src="{{ image }}?crop=240x160" alt="{{ images_alt[forloop.index0] }}" title="{{ images_alt[forloop.index0] }}" class="img-fluid" />
+				</a>
+				<code>size: {{ images_width[forloop.index0] }}x{{ images_height[forloop.index0] }}</code>
+			</div>
+		{% endfor %}
+	</div>`
+
   ![alt text](https://github.com/clixell/clixell-content/blob/master/help-docs/images/how-to-gallery-4.png)
 
   Complete. Your gallery will now appear.
 
   ## Jumbotron
 
-  ![alt text](https://github.com/clixell/clixell-content/blob/master/help-docs/images/jumbotron.png)
+  ![alt text](https://github.com/clixell/clixell-content/blob/master/help-docs/images/jumbotron-example.png)
 
   To upload a jumbotron to a content type, first start by altering the config of your content page, adding a new single image type to the image section with the title "Jumbotron":
 
@@ -59,7 +75,7 @@
 
   Call the jumbotron with the following code:
 
-  ![alt text](https://github.com/clixell/clixell-content/blob/master/help-docs/images/how-to-jumbotron-3.png)
+  `<img src='{{ content_image_jumbotron }}?crop=1920x300' class="img-fluid" />`
 
   ## Image GET variables
 
