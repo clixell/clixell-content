@@ -6,7 +6,7 @@ You can add Meta Fields to your content types
 
 You can add Meta Fields within the content type:
 
-![alt text](https://github.com/clixell/clixell-content/blob/master/help-docs/images/how-to-meta-1.png)
+![alt text](https://github.com/clixell/clixell-content/blob/master/help-docs/images/how-to-meta-1.jpg)
 
 Call the Meta fields with the following code:
 

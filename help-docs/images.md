@@ -11,11 +11,11 @@
 
   To upload a custom thumbnail to a content type, first start by altering the config of your content page, adding a new single image type to the image section with the title "Thumbnail":
 
-  ![alt text](https://github.com/clixell/clixell-content/blob/master/help-docs/images/how-to-thumbnail-1.png)
+  ![alt text](https://github.com/clixell/clixell-content/blob/master/help-docs/images/how-to-thumbnail-1.jpg)
 
   Then you should go to the pages content and find the Thumbnail handle, and upload your desired image:
 
-  ![alt text](https://github.com/clixell/clixell-content/blob/master/help-docs/images/how-to-thumbnail-2.png)
+  ![alt text](https://github.com/clixell/clixell-content/blob/master/help-docs/images/how-to-thumbnail-2.jpg)
 
   Call the thumbnail with the following:
 
