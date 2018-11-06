@@ -25,7 +25,7 @@
 
   Call the thumbnail with the following:
 
-  `<img src={{ item_image_thumbnail }}></img>`
+  `<img src={{ item_image_thumbnail }}>`
 
   Complete.</strong> Your thumbnail will now appear.
 
