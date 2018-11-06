@@ -8,7 +8,7 @@ Have a content page you would like to add to your store? For example an FAQs pag
 
 ### Custom text
 
-Add whatever header, subheader, description and anything else you need to your page using the textboxes and TinyMCE textareas. You can format the text to be any style, colour and have whatever layout you like.
+Add whatever header, subheader, description and anything else you need to your page using the textboxes and TinyMCE textareas. You can format the text to be any style, colour and create any layout you like.
 
 ### Images 
 
