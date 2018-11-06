@@ -9,13 +9,19 @@
 
   ![alt text](https://github.com/clixell/clixell-content/blob/master/help-docs/images/thumbnail-example.png "Example of a thumbnail")
 
+  ---
+
   To upload a custom thumbnail to a content type, first start by altering the config of your content page, adding a new single image type to the image section with the title "Thumbnail":
 
   ![alt text](https://github.com/clixell/clixell-content/blob/master/help-docs/images/how-to-thumbnail-1.jpg)
 
+  ---
+
   Then you should go to the pages content and find the Thumbnail handle, and upload your desired image:
 
   ![alt text](https://github.com/clixell/clixell-content/blob/master/help-docs/images/how-to-thumbnail-2.jpg)
+
+  ---
 
   Call the thumbnail with the following:
 
@@ -29,9 +35,13 @@
 
   ![alt text](https://github.com/clixell/clixell-content/blob/master/help-docs/images/how-to-gallery-1.jpg)
 
+  ---
+
   Find the gallery header in the content type and select as many images as you like:
 
   ![alt text](https://github.com/clixell/clixell-content/blob/master/help-docs/images/how-to-gallery-2.jpg)
+
+  ---
 
   Print the gallery with the following:
 
@@ -59,13 +69,19 @@
 
   ![alt text](https://github.com/clixell/clixell-content/blob/master/help-docs/images/jumbotron-example.png)
 
+  ---
+
   To upload a jumbotron to a content type, first start by altering the config of your content page, adding a new single image type to the image section with the title "Jumbotron":
 
   ![alt text](https://github.com/clixell/clixell-content/blob/master/help-docs/images/how-to-jumbotron-1.jpg)
 
+  ---
+
   Upload your jumbotron image:
 
   ![alt text](https://github.com/clixell/clixell-content/blob/master/help-docs/images/how-to-jumbotron-2.jpg)
+
+  ---
 
   Call the jumbotron with the following code:
 
