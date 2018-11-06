@@ -37,7 +37,4 @@ In your template, you can call your new download(s) with:
 {% endfor %}
 ```
 
-This code will be the same whether you have one download or multiple. We added another sizing guide for the US, here is what our
-customer will now see:
-
-![alt text](https://github.com/clixell/clixell-content/blob/master/help-docs/images/how-to-downloads-5.png)
+This code will be the same whether you have one download or multiple.
