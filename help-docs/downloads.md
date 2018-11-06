@@ -20,9 +20,7 @@ Click "add new". Enter a title and upload your file. Ensure that "Status" is set
 
 ![alt text](https://github.com/clixell/clixell-content/blob/master/help-docs/images/how-to-downloads-3.png)
 
-Click save and your download will now appear
-
-![alt text](https://github.com/clixell/clixell-content/blob/master/help-docs/images/how-to-downloads-4.png)
+Click save.
 
 In your template, you can call your new download(s) with:
 

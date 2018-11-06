@@ -25,19 +25,13 @@
 
   ## Galleries
 
-  ![alt text](https://github.com/clixell/clixell-content/blob/master/help-docs/images/galleries-example.png)
-
   To add a gallery to a content type, first start by altering the config of your content page, adding a new multi image type to the image section with the title "Gallery":
 
-  ![alt text](https://github.com/clixell/clixell-content/blob/master/help-docs/images/how-to-gallery-1.png)
+  ![alt text](https://github.com/clixell/clixell-content/blob/master/help-docs/images/how-to-gallery-1.jpg)
 
-  Find the gallery header in the content type:
+  Find the gallery header in the content type and select as many images as you like:
 
-  ![alt text](https://github.com/clixell/clixell-content/blob/master/help-docs/images/how-to-gallery-2.png)
-
-  Select and upload as many images as you like:
-
-  ![alt text](https://github.com/clixell/clixell-content/blob/master/help-docs/images/how-to-gallery-3.png)
+  ![alt text](https://github.com/clixell/clixell-content/blob/master/help-docs/images/how-to-gallery-2.jpg)
 
   Print the gallery with the following:
 
