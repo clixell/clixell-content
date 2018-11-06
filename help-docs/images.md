@@ -61,11 +61,11 @@
 
   To upload a jumbotron to a content type, first start by altering the config of your content page, adding a new single image type to the image section with the title "Jumbotron":
 
-  ![alt text](https://github.com/clixell/clixell-content/blob/master/help-docs/images/how-to-jumbotron-1.png)
+  ![alt text](https://github.com/clixell/clixell-content/blob/master/help-docs/images/how-to-jumbotron-1.jpg)
 
   Upload your jumbotron image:
 
-  ![alt text](https://github.com/clixell/clixell-content/blob/master/help-docs/images/how-to-jumbotron-2.png)
+  ![alt text](https://github.com/clixell/clixell-content/blob/master/help-docs/images/how-to-jumbotron-2.jpg)
 
   Call the jumbotron with the following code:
 
