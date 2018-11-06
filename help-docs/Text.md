@@ -109,4 +109,4 @@ A typical styles config will look like the following:
 }
 ```
 
-You should call it `cxl-styles-config.json` and replace the stylesheets link at the top with your own stylesheet.
+You should name the json file `cxl-styles-config.json` and replace the stylesheets url with your own stylesheet.
