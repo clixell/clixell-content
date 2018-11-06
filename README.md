@@ -8,27 +8,23 @@ Have a content page you would like to add to your store? For example an FAQs pag
 
 ### Custom text
 
-You can add whatever header, subheader, description and anything else you need to your page using the textboxes and TinyMCE textareas. Simply give the text type a name and call it in your view. You can format the text to be any style, colour and have any page align you like.
+Add whatever header, subheader, description and anything else you need to your page using the textboxes and TinyMCE textareas. You can format the text to be any style, colour and have whatever layout you like.
 
 ### Images 
 
-You can upload images in the admin section and call them on the frontend. If you are creating a listing page for the content type, you can add a thumbnail to each article within the content type and it will show within the listing page.
-
-### Gallery of images
-
-You can upload multiple images that will be grouped together and displayed as a gallery in the frontend.
+Upload images to be displayed in the frontend. Some examples of types of images you could add are thumbnails, jumbotrons and galleries.
 
 ### Tags
 
-You can add tags to your content page which will be clickable and link to other articles within the content type that share the same tag. 
+Add tags to your content. Tags will link to other articles that share the same tag. 
 
 ### Downloads
 
-You can add downloadable content to your page. If you would like your customers to be able to download PDFs, Text Documents, images and more, then you simple upload the document to the backend and call it in the frontend. You will be able to give the download whatever name you like and have it appear however you wish in the frontend.
+Add downloadable content to your shopify store
 
 ### Meta fields
 
-Add a Meta title and description to your content pages
+Add a Meta title and meta description to your content pages
 
 ### Data through ajax
 
@@ -36,4 +32,4 @@ You can bring your data in using an ajax request so that you don't have to call 
 
 ## Tutorials and more info
 
-For tutorials and to view more information on each of these features, visit the Clixell Content help section in the repository.
+Visit the [Clixell Content Wiki](https://github.com/clixell/clixell-content/wiki) for guides and tutorials on how to use the Clixell Content app
