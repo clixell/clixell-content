@@ -8,13 +8,13 @@ You can add downloads to your pages for the customer to download. You may want t
 
 Go to your config and check "show downloads" in the options
 
-![alt text](https://github.com/clixell/clixell-content/blob/master/help-docs/images/how-to-downloads-1.png)
+![alt text](https://github.com/clixell/clixell-content/blob/master/help-docs/images/how-to-downloads-1.jpg)
 
 **Make sure you click save in the top right after making this change**
 
 Go back to your content type and the new downloads section will now show
 
-![alt text](https://github.com/clixell/clixell-content/blob/master/help-docs/images/how-to-downloads-2.png)
+![alt text](https://github.com/clixell/clixell-content/blob/master/help-docs/images/how-to-downloads-2.jpg)
 
 Click "add new". Enter a title and upload your file. Ensure that "Status" is set to "Published"
 
