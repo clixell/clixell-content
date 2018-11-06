@@ -12,13 +12,19 @@ A text snippet would be something like the following subheader, "the best suites
 
 ![alt text](https://github.com/clixell/clixell-content/blob/master/help-docs/images/text-snippet-example.png)
 
+___
+
 Start by creating a new text attribute:
 
 ![alt text](https://github.com/clixell/clixell-content/blob/master/help-docs/images/how-to-text-snippet-1.jpg)
 
+---
+
 Go to the content type and fill the new text attribute with the details you would like:
 
 ![alt text](https://github.com/clixell/clixell-content/blob/master/help-docs/images/how-to-text-snippet-2.jpg)
+
+---
 
 Use the following code to retrieve the snippet:
 
