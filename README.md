@@ -26,10 +26,6 @@ You can add tags to your content page which will be clickable and link to other 
 
 You can add downloadable content to your page. If you would like your customers to be able to download PDFs, Text Documents, images and more, then you simple upload the document to the backend and call it in the frontend. You will be able to give the download whatever name you like and have it appear however you wish in the frontend.
 
-### Links
-
-Create links to redirect the user to other pages on the site or to other places of interest
-
 ### Meta fields
 
 Add a Meta title and description to your content pages
